@@ -1,0 +1,38 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+
+
+<dom-module id="graph-year">
+    <template>
+        <h2>year</h2>
+        <div id="container" width="960" height="500"></div>
+    </template>
+    <script>
+    class GraphYear extends Polymer.Element {
+        static get is() { return "graph-year" }
+        static get properties(){ 
+        	return {
+        		years:{
+                    type:Object,
+                    observer:"_yearsChanged"
+                }
+        	}
+        }
+        _yearsChanged(){
+            d3.select(this.$.container)
+                    .selectAll("div")
+                    .data(this.years)
+                    .enter()
+                    .append("div")
+                    .style("width", function(d) { return (d.count*2+40) +"px"; })
+                    .style("background-color", "#FF5722")
+                    .style("padding", "3px")
+                    .style("margin", "1px")
+                    .style("margin-left", "20px")
+                    .style("font-size", "14px")
+                    .style("font-family", "sans-serif")
+                    .text(function(d) { return d._id + " " + d.count; });
+        }
+    }
+    window.customElements.define(GraphYear.is, GraphYear)
+    </script>
+</dom-module>

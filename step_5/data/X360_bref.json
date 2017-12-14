@@ -1,0 +1,65 @@
+{
+    "publisher": [
+    {
+        "_id": "Electronic Arts",
+        "count": 167
+    },
+    {
+        "_id": "Activision",
+        "count": 134
+    },
+    {
+        "_id": "Ubisoft",
+        "count": 99
+    },
+    {
+        "_id": "Microsoft Game Studios",
+        "count": 71
+    },
+    {
+        "_id": "Take-Two Interactive",
+        "count": 70
+    }],
+    "genre": [
+    {
+        "_id": "Action",
+        "count": 324
+    },
+    {
+        "_id": "Sports",
+        "count": 220
+    },
+    {
+        "_id": "Shooter",
+        "count": 203
+    },
+    {
+        "_id": "Misc",
+        "count": 126
+    },
+    {
+        "_id": "Racing",
+        "count": 105
+    }],
+    "year": [
+    {
+        "_id": 2011,
+        "count": 206
+    },
+    {
+        "_id": 2010,
+        "count": 182
+    },
+    {
+        "_id": 2009,
+        "count": 173
+    },
+    {
+        "_id": 2008,
+        "count": 146
+    },
+    {
+        "_id": 2007,
+        "count": 123
+    }]
+}

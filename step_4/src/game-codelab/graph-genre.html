@@ -1,0 +1,56 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/paper-card/paper-card.html">
+<dom-module id="graph-genre">
+    <template>
+        <style>
+        .arc text {
+            font: 10px sans-serif;
+            text-anchor: middle;
+        }
+
+        .arc path {
+            stroke: #fff;
+        }
+        paper-card{
+            margin-bottom: 10px;
+        }
+        </style>
+        <paper-card heading="Genre" image="" elevation="3" animated-shadow="false">
+          <div class="card-content">
+              <div id="container" width="960" height="400"></div>
+          </div>
+        </paper-card>
+        
+        
+    </template>
+    <script>
+    class GraphGenre extends Polymer.Element {
+        static get is() { return "graph-genre" }
+        static get properties() {
+            return {
+                genres: {
+                    type: Object,
+                    observer: "_genresChanged"
+                }
+            }
+        }
+        _genresChanged() {
+            d3.select(this.$.container)
+                    .selectAll("div")
+                    .data(this.genres)
+                    .enter()
+                    .append("div")
+                    .style("width", function(d) { return d.count*3 +"px"; })
+                    .style("background-color", "#CE93D8")
+                    .style("padding", "3px")
+                    .style("margin", "1px")
+                    .style("margin-left", "10px")
+                    .style("font-size", "14px")
+                    .style("font-family", "sans-serif")
+                    .text(function(d) { return d._id + " " + d.count; });
+
+        }
+    }
+    window.customElements.define(GraphGenre.is, GraphGenre)
+    </script>
+</dom-module>

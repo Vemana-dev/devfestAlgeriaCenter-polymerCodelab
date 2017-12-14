@@ -1,0 +1,65 @@
+{
+    "publisher": [
+    {
+        "_id": "Electronic Arts",
+        "count": 142
+    },
+    {
+        "_id": "Sony Computer Entertainment",
+        "count": 129
+    },
+    {
+        "_id": "Namco Bandai Games",
+        "count": 116
+    },
+    {
+        "_id": "Activision",
+        "count": 108
+    },
+    {
+        "_id": "Ubisoft",
+        "count": 73
+    }],
+    "genre": [
+    {
+        "_id": "Action",
+        "count": 380
+    },
+    {
+        "_id": "Sports",
+        "count": 213
+    },
+    {
+        "_id": "Shooter",
+        "count": 156
+    },
+    {
+        "_id": "Misc",
+        "count": 124
+    },
+    {
+        "_id": "Role-Playing",
+        "count": 119
+    }],
+    "year": [
+    {
+        "_id": 2011,
+        "count": 216
+    },
+    {
+        "_id": 2010,
+        "count": 181
+    },
+    {
+        "_id": 2009,
+        "count": 162
+    },
+    {
+        "_id": 2012,
+        "count": 148
+    },
+    {
+        "_id": 2008,
+        "count": 139
+    }]
+}

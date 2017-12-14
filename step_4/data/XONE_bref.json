@@ -1,0 +1,61 @@
+{
+    "publisher": [
+    {
+        "_id": "Electronic Arts",
+        "count": 27
+    },
+    {
+        "_id": "Ubisoft",
+        "count": 25
+    },
+    {
+        "_id": "Microsoft Game Studios",
+        "count": 20
+    },
+    {
+        "_id": "Activision",
+        "count": 20
+    },
+    {
+        "_id": "Warner Bros. Interactive Entertainment",
+        "count": 13
+    }],
+    "genre": [
+    {
+        "_id": "Action",
+        "count": 68
+    },
+    {
+        "_id": "Sports",
+        "count": 36
+    },
+    {
+        "_id": "Shooter",
+        "count": 33
+    },
+    {
+        "_id": "Racing",
+        "count": 19
+    },
+    {
+        "_id": "Misc",
+        "count": 15
+    }],
+    "year": [
+    {
+        "_id": 2015,
+        "count": 79
+    },
+    {
+        "_id": 2014,
+        "count": 61
+    },
+    {
+        "_id": 2016,
+        "count": 54
+    },
+    {
+        "_id": 2013,
+        "count": 19
+    }]
+}

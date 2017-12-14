@@ -1,0 +1,65 @@
+{
+    "publisher": [
+    {
+        "_id": "Electronic Arts",
+        "count": 148
+    },
+    {
+        "_id": "Ubisoft",
+        "count": 76
+    },
+    {
+        "_id": "Activision",
+        "count": 56
+    },
+    {
+        "_id": "Take-Two Interactive",
+        "count": 45
+    },
+    {
+        "_id": "Sega",
+        "count": 33
+    }],
+    "genre": [
+    {
+        "_id": "Strategy",
+        "count": 188
+    },
+    {
+        "_id": "Action",
+        "count": 165
+    },
+    {
+        "_id": "Shooter",
+        "count": 148
+    },
+    {
+        "_id": "Simulation",
+        "count": 115
+    },
+    {
+        "_id": "Role-Playing",
+        "count": 104
+    }],
+    "year": [
+    {
+        "_id": 2011,
+        "count": 140
+    },
+    {
+        "_id": 2009,
+        "count": 109
+    },
+    {
+        "_id": 2010,
+        "count": 90
+    },
+    {
+        "_id": 2008,
+        "count": 76
+    },
+    {
+        "_id": 2007,
+        "count": 63
+    }]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "DevFest_codelab",
+  "short_name": "DevFest_codelab",
+  "description": "a simple website for video gaming sale stats",
+  "start_url": "/",
+  "display": "standalone"
+}

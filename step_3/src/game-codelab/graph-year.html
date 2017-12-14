@@ -1,0 +1,31 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+
+
+<dom-module id="graph-year">
+    <template>
+        <h2>year</h2>
+        <table style="width:100%">
+            <tr>
+                <th>Year</th>
+                <th>number of Game</th>
+            </tr>
+            <template is="dom-repeat" items='{{years}}' as="year">
+                <tr>
+                    <td>[[year._id]]</td>
+                    <td>[[year.count]]</td>
+                </tr>
+            </template>
+        </table>
+    </template>
+    <script>
+    class GraphYear extends Polymer.Element {
+        static get is() { return "graph-year" }
+        static get properties(){ 
+        	return {
+        		years:Object
+        	}
+        }
+    }
+    window.customElements.define(GraphYear.is, GraphYear)
+    </script>
+</dom-module>

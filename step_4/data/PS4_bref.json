@@ -1,0 +1,65 @@
+{
+    "publisher": [
+    {
+        "_id": "Namco Bandai Games",
+        "count": 30
+    },
+    {
+        "_id": "Electronic Arts",
+        "count": 26
+    },
+    {
+        "_id": "Ubisoft",
+        "count": 24
+    },
+    {
+        "_id": "Tecmo Koei",
+        "count": 22
+    },
+    {
+        "_id": "Activision",
+        "count": 21
+    }],
+    "genre": [
+    {
+        "_id": "Action",
+        "count": 122
+    },
+    {
+        "_id": "Role-Playing",
+        "count": 47
+    },
+    {
+        "_id": "Sports",
+        "count": 43
+    },
+    {
+        "_id": "Shooter",
+        "count": 34
+    },
+    {
+        "_id": "Adventure",
+        "count": 19
+    }],
+    "year": [
+    {
+        "_id": 2015,
+        "count": 137
+    },
+    {
+        "_id": 2016,
+        "count": 107
+    },
+    {
+        "_id": 2014,
+        "count": 75
+    },
+    {
+        "_id": 2013,
+        "count": 16
+    },
+    {
+        "_id": 2017,
+        "count": 1
+    }]
+}

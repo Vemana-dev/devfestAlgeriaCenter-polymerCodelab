@@ -1,0 +1,225 @@
+{
+    "publisher": [
+    {
+        "_id": "Electronic Arts",
+        "count": 27
+    },
+    {
+        "_id": "Ubisoft",
+        "count": 25
+    },
+    {
+        "_id": "Microsoft Game Studios",
+        "count": 20
+    },
+    {
+        "_id": "Activision",
+        "count": 20
+    },
+    {
+        "_id": "Warner Bros. Interactive Entertainment",
+        "count": 13
+    },
+    {
+        "_id": "Take-Two Interactive",
+        "count": 12
+    },
+    {
+        "_id": "Square Enix",
+        "count": 11
+    },
+    {
+        "_id": "Namco Bandai Games",
+        "count": 7
+    },
+    {
+        "_id": "Bethesda Softworks",
+        "count": 7
+    },
+    {
+        "_id": "Deep Silver",
+        "count": 6
+    },
+    {
+        "_id": "505 Games",
+        "count": 6
+    },
+    {
+        "_id": "Tecmo Koei",
+        "count": 6
+    },
+    {
+        "_id": "Telltale Games",
+        "count": 6
+    },
+    {
+        "_id": "Capcom",
+        "count": 5
+    },
+    {
+        "_id": "Konami Digital Entertainment",
+        "count": 5
+    },
+    {
+        "_id": "Disney Interactive Studios",
+        "count": 3
+    },
+    {
+        "_id": "Codemasters",
+        "count": 3
+    },
+    {
+        "_id": "Milestone S.r.l.",
+        "count": 3
+    },
+    {
+        "_id": "Focus Home Interactive",
+        "count": 3
+    },
+    {
+        "_id": "Nordic Games",
+        "count": 2
+    },
+    {
+        "_id": "Bigben Interactive",
+        "count": 2
+    },
+    {
+        "_id": "Koch Media",
+        "count": 2
+    },
+    {
+        "_id": "Tru Blu Entertainment",
+        "count": 2
+    },
+    {
+        "_id": "Unknown",
+        "count": 1
+    },
+    {
+        "_id": "Sega",
+        "count": 1
+    },
+    {
+        "_id": "Rebellion Developments",
+        "count": 1
+    },
+    {
+        "_id": "Harmonix Music Systems",
+        "count": 1
+    },
+    {
+        "_id": "Milestone S.r.l",
+        "count": 1
+    },
+    {
+        "_id": "5pb",
+        "count": 1
+    },
+    {
+        "_id": "PQube",
+        "count": 1
+    },
+    {
+        "_id": "Mojang",
+        "count": 1
+    },
+    {
+        "_id": "Slightly Mad Studios",
+        "count": 1
+    },
+    {
+        "_id": "Majesco Entertainment",
+        "count": 1
+    },
+    {
+        "_id": "Alternative Software",
+        "count": 1
+    },
+    {
+        "_id": "MLB.com",
+        "count": 1
+    },
+    {
+        "_id": "Insomniac Games",
+        "count": 1
+    },
+    {
+        "_id": "Revolution Software",
+        "count": 1
+    },
+    {
+        "_id": "Dusenberry Martin Racing",
+        "count": 1
+    },
+    {
+        "_id": "Little Orbit",
+        "count": 1
+    },
+    {
+        "_id": "Stainless Games",
+        "count": 1
+    }],
+    "genre": [
+    {
+        "_id": "Action",
+        "count": 68
+    },
+    {
+        "_id": "Sports",
+        "count": 36
+    },
+    {
+        "_id": "Shooter",
+        "count": 33
+    },
+    {
+        "_id": "Racing",
+        "count": 19
+    },
+    {
+        "_id": "Misc",
+        "count": 15
+    },
+    {
+        "_id": "Role-Playing",
+        "count": 13
+    },
+    {
+        "_id": "Adventure",
+        "count": 12
+    },
+    {
+        "_id": "Fighting",
+        "count": 7
+    },
+    {
+        "_id": "Platform",
+        "count": 4
+    },
+    {
+        "_id": "Strategy",
+        "count": 3
+    },
+    {
+        "_id": "Simulation",
+        "count": 3
+    }],
+    "year": [
+    {
+        "_id": 2015,
+        "count": 79
+    },
+    {
+        "_id": 2014,
+        "count": 61
+    },
+    {
+        "_id": 2016,
+        "count": 54
+    },
+    {
+        "_id": 2013,
+        "count": 19
+    }]
+}

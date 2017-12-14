@@ -1,0 +1,341 @@
+{
+    "publisher": [
+    {
+        "_id": "Namco Bandai Games",
+        "count": 30
+    },
+    {
+        "_id": "Electronic Arts",
+        "count": 26
+    },
+    {
+        "_id": "Ubisoft",
+        "count": 24
+    },
+    {
+        "_id": "Tecmo Koei",
+        "count": 22
+    },
+    {
+        "_id": "Activision",
+        "count": 21
+    },
+    {
+        "_id": "Square Enix",
+        "count": 19
+    },
+    {
+        "_id": "Sony Computer Entertainment",
+        "count": 17
+    },
+    {
+        "_id": "Capcom",
+        "count": 16
+    },
+    {
+        "_id": "Warner Bros. Interactive Entertainment",
+        "count": 14
+    },
+    {
+        "_id": "Take-Two Interactive",
+        "count": 12
+    },
+    {
+        "_id": "Deep Silver",
+        "count": 10
+    },
+    {
+        "_id": "Nippon Ichi Software",
+        "count": 9
+    },
+    {
+        "_id": "Sega",
+        "count": 8
+    },
+    {
+        "_id": "Telltale Games",
+        "count": 7
+    },
+    {
+        "_id": "Bethesda Softworks",
+        "count": 7
+    },
+    {
+        "_id": "Konami Digital Entertainment",
+        "count": 7
+    },
+    {
+        "_id": "505 Games",
+        "count": 6
+    },
+    {
+        "_id": "Focus Home Interactive",
+        "count": 6
+    },
+    {
+        "_id": "Nordic Games",
+        "count": 6
+    },
+    {
+        "_id": "PQube",
+        "count": 4
+    },
+    {
+        "_id": "Milestone S.r.l.",
+        "count": 4
+    },
+    {
+        "_id": "Sony Computer Entertainment Europe",
+        "count": 4
+    },
+    {
+        "_id": "Codemasters",
+        "count": 3
+    },
+    {
+        "_id": "Bigben Interactive",
+        "count": 3
+    },
+    {
+        "_id": "Marvelous Interactive",
+        "count": 2
+    },
+    {
+        "_id": "D3Publisher",
+        "count": 2
+    },
+    {
+        "_id": "Aqua Plus",
+        "count": 2
+    },
+    {
+        "_id": "Disney Interactive Studios",
+        "count": 2
+    },
+    {
+        "_id": "Idea Factory International",
+        "count": 2
+    },
+    {
+        "_id": "Tru Blu Entertainment",
+        "count": 2
+    },
+    {
+        "_id": "Avanquest",
+        "count": 2
+    },
+    {
+        "_id": "Kalypso Media",
+        "count": 2
+    },
+    {
+        "_id": "Compile Heart",
+        "count": 1
+    },
+    {
+        "_id": "Acquire",
+        "count": 1
+    },
+    {
+        "_id": "Arc System Works",
+        "count": 1
+    },
+    {
+        "_id": "FuRyu Corporation",
+        "count": 1
+    },
+    {
+        "_id": "Aksys Games",
+        "count": 1
+    },
+    {
+        "_id": "Revolution Software",
+        "count": 1
+    },
+    {
+        "_id": "Yacht Club Games",
+        "count": 1
+    },
+    {
+        "_id": "Rebellion Developments",
+        "count": 1
+    },
+    {
+        "_id": "Nihon Falcom Corporation",
+        "count": 1
+    },
+    {
+        "_id": "Mojang",
+        "count": 1
+    },
+    {
+        "_id": "Microids",
+        "count": 1
+    },
+    {
+        "_id": "Idea Factory",
+        "count": 1
+    },
+    {
+        "_id": "Introversion Software",
+        "count": 1
+    },
+    {
+        "_id": "Alternative Software",
+        "count": 1
+    },
+    {
+        "_id": "Atlus",
+        "count": 1
+    },
+    {
+        "_id": "Hello Games",
+        "count": 1
+    },
+    {
+        "_id": "Unknown",
+        "count": 1
+    },
+    {
+        "_id": "Epic Games",
+        "count": 1
+    },
+    {
+        "_id": "Devolver Digital",
+        "count": 1
+    },
+    {
+        "_id": "Insomniac Games",
+        "count": 1
+    },
+    {
+        "_id": "Sony Computer Entertainment America",
+        "count": 1
+    },
+    {
+        "_id": "Little Orbit",
+        "count": 1
+    },
+    {
+        "_id": "Dusenberry Martin Racing",
+        "count": 1
+    },
+    {
+        "_id": "Rising Star Games",
+        "count": 1
+    },
+    {
+        "_id": "Yeti",
+        "count": 1
+    },
+    {
+        "_id": "Koch Media",
+        "count": 1
+    },
+    {
+        "_id": "Sold Out",
+        "count": 1
+    },
+    {
+        "_id": "Milestone S.r.l",
+        "count": 1
+    },
+    {
+        "_id": "UIG Entertainment",
+        "count": 1
+    },
+    {
+        "_id": "System 3",
+        "count": 1
+    },
+    {
+        "_id": "Xseed Games",
+        "count": 1
+    },
+    {
+        "_id": "Slightly Mad Studios",
+        "count": 1
+    },
+    {
+        "_id": "TopWare Interactive",
+        "count": 1
+    },
+    {
+        "_id": "Harmonix Music Systems",
+        "count": 1
+    },
+    {
+        "_id": "5pb",
+        "count": 1
+    }],
+    "genre": [
+    {
+        "_id": "Action",
+        "count": 122
+    },
+    {
+        "_id": "Role-Playing",
+        "count": 47
+    },
+    {
+        "_id": "Sports",
+        "count": 43
+    },
+    {
+        "_id": "Shooter",
+        "count": 34
+    },
+    {
+        "_id": "Adventure",
+        "count": 19
+    },
+    {
+        "_id": "Fighting",
+        "count": 17
+    },
+    {
+        "_id": "Racing",
+        "count": 17
+    },
+    {
+        "_id": "Misc",
+        "count": 15
+    },
+    {
+        "_id": "Platform",
+        "count": 11
+    },
+    {
+        "_id": "Strategy",
+        "count": 5
+    },
+    {
+        "_id": "Simulation",
+        "count": 5
+    },
+    {
+        "_id": "Puzzle",
+        "count": 1
+    }],
+    "year": [
+    {
+        "_id": 2015,
+        "count": 137
+    },
+    {
+        "_id": 2016,
+        "count": 107
+    },
+    {
+        "_id": 2014,
+        "count": 75
+    },
+    {
+        "_id": 2013,
+        "count": 16
+    },
+    {
+        "_id": 2017,
+        "count": 1
+    }]
+}

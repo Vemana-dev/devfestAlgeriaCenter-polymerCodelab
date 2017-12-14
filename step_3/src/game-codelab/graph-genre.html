@@ -1,0 +1,31 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+
+
+<dom-module id="graph-genre">
+    <template>
+        <h2>genre</h2>
+        <table style="width:100%">
+            <tr>
+                <th>Name</th>
+                <th>number of Game</th>
+            </tr>
+            <template is="dom-repeat" items='{{genres}}' as="genre">
+                <tr>
+                    <td>[[genre._id]]</td>
+                    <td>[[genre.count]]</td>
+                </tr>
+            </template>
+        </table>
+    </template>
+    <script>
+    class GraphGenre extends Polymer.Element {
+        static get is() { return "graph-genre" }
+        static get properties(){ 
+        	return {
+        		genres:Object
+        	}
+        }
+    }
+    window.customElements.define(GraphGenre.is, GraphGenre)
+    </script>
+</dom-module>

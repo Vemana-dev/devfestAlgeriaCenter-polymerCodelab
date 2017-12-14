@@ -1,0 +1,59 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/paper-card/paper-card.html">
+
+<dom-module id="graph-publisher">
+    <template>
+        <style>
+        .bar {
+            fill: steelblue;
+        }
+
+        .bar:hover {
+            fill: brown;
+        }
+
+        .axis--x path {
+            display: none;
+        }
+         paper-card{
+            margin-bottom: 10px;
+        }
+        </style>
+        <paper-card heading="Publisher" image="" elevation="3" animated-shadow="false">
+          <div class="card-content">
+              <div id="container" width="960" height="300"></div>
+          </div>
+        </paper-card>
+        
+    </template>
+    <script>
+    class GraphPublisher extends Polymer.Element {
+        static get is() { return "graph-publisher" }
+        static get properties() {
+            return {
+                publishers: {
+                    type: Object,
+                    observer: "_publisherChanged"
+                }
+            }
+        }
+        _publisherChanged() {
+            d3.select(this.$.container)
+                    .selectAll("div")
+                    .data(this.publishers)
+                    .enter()
+                    .append("div")
+                    .style("width", function(d) { return d.count*5 +"px"; })
+                    .style("background-color", "#00E676")
+                    .style("padding", "3px")
+                    .style("margin", "1px")
+                    .style("margin-left", "10px")
+                    .style("font-size", "14px")
+                    .style("font-family", "sans-serif")
+                    .text(function(d) { return d._id + " " + d.count; });
+
+        }
+    }
+    window.customElements.define(GraphPublisher.is, GraphPublisher)
+    </script>
+</dom-module>

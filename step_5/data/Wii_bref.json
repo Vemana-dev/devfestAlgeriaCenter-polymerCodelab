@@ -1,0 +1,65 @@
+{
+    "publisher": [
+    {
+        "_id": "Ubisoft",
+        "count": 115
+    },
+    {
+        "_id": "Activision",
+        "count": 111
+    },
+    {
+        "_id": "Electronic Arts",
+        "count": 90
+    },
+    {
+        "_id": "Nintendo",
+        "count": 84
+    },
+    {
+        "_id": "THQ",
+        "count": 76
+    }],
+    "genre": [
+    {
+        "_id": "Misc",
+        "count": 280
+    },
+    {
+        "_id": "Sports",
+        "count": 261
+    },
+    {
+        "_id": "Action",
+        "count": 238
+    },
+    {
+        "_id": "Racing",
+        "count": 94
+    },
+    {
+        "_id": "Simulation",
+        "count": 87
+    }],
+    "year": [
+    {
+        "_id": 2009,
+        "count": 325
+    },
+    {
+        "_id": 2008,
+        "count": 282
+    },
+    {
+        "_id": 2010,
+        "count": 254
+    },
+    {
+        "_id": 2007,
+        "count": 187
+    },
+    {
+        "_id": 2011,
+        "count": 144
+    }]
+}

@@ -1,0 +1,45 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/paper-card/paper-card.html">
+
+<!--
+A comment describing this element
+
+Example:
+
+    <my-elem></my-elem>
+
+Example:
+
+    <my-elem>
+      <h2>Hello my-elem</h2>
+    </my-elem>
+
+@demo demo/index.html
+-->
+<dom-module id="game-card">
+    <template>
+        <style>
+        paper-chip.custom-background {
+            --paper-chip-background-color: #64b5f6;
+        }
+        </style>
+        <paper-card heading="[[game.name]]" image="" elevation="1" animated-shadow="false">
+            <div class="card-content"></div>
+            <div class="card-actions">
+                [[game.publisher]] [[game.year]]
+            </div>
+        </paper-card>
+    </template>
+    <script>
+    class GameCard extends Polymer.Element {
+        static get is() { return 'game-card'; }
+        static get properties() {
+            return {
+                game: Object
+            };
+        }
+    }
+
+    window.customElements.define(GameCard.is, GameCard);
+    </script>
+</dom-module>

@@ -1,0 +1,513 @@
+{
+    "publisher": [
+    {
+        "_id": "Electronic Arts",
+        "count": 167
+    },
+    {
+        "_id": "Activision",
+        "count": 134
+    },
+    {
+        "_id": "Ubisoft",
+        "count": 99
+    },
+    {
+        "_id": "Microsoft Game Studios",
+        "count": 71
+    },
+    {
+        "_id": "Take-Two Interactive",
+        "count": 70
+    },
+    {
+        "_id": "THQ",
+        "count": 64
+    },
+    {
+        "_id": "Konami Digital Entertainment",
+        "count": 49
+    },
+    {
+        "_id": "Sega",
+        "count": 47
+    },
+    {
+        "_id": "Namco Bandai Games",
+        "count": 44
+    },
+    {
+        "_id": "Capcom",
+        "count": 35
+    },
+    {
+        "_id": "Warner Bros. Interactive Entertainment",
+        "count": 34
+    },
+    {
+        "_id": "505 Games",
+        "count": 27
+    },
+    {
+        "_id": "Codemasters",
+        "count": 27
+    },
+    {
+        "_id": "Square Enix",
+        "count": 26
+    },
+    {
+        "_id": "Tecmo Koei",
+        "count": 23
+    },
+    {
+        "_id": "Deep Silver",
+        "count": 22
+    },
+    {
+        "_id": "Disney Interactive Studios",
+        "count": 21
+    },
+    {
+        "_id": "Atari",
+        "count": 20
+    },
+    {
+        "_id": "D3Publisher",
+        "count": 16
+    },
+    {
+        "_id": "5pb",
+        "count": 15
+    },
+    {
+        "_id": "Bethesda Softworks",
+        "count": 15
+    },
+    {
+        "_id": "Eidos Interactive",
+        "count": 14
+    },
+    {
+        "_id": "Unknown",
+        "count": 12
+    },
+    {
+        "_id": "MTV Games",
+        "count": 10
+    },
+    {
+        "_id": "Cave",
+        "count": 9
+    },
+    {
+        "_id": "Black Bean Games",
+        "count": 9
+    },
+    {
+        "_id": "Vivendi Games",
+        "count": 9
+    },
+    {
+        "_id": "Midway Games",
+        "count": 9
+    },
+    {
+        "_id": "LucasArts",
+        "count": 8
+    },
+    {
+        "_id": "Focus Home Interactive",
+        "count": 8
+    },
+    {
+        "_id": "DTP Entertainment",
+        "count": 7
+    },
+    {
+        "_id": "Activision Value",
+        "count": 7
+    },
+    {
+        "_id": "Little Orbit",
+        "count": 6
+    },
+    {
+        "_id": "Kalypso Media",
+        "count": 6
+    },
+    {
+        "_id": "Rising Star Games",
+        "count": 5
+    },
+    {
+        "_id": "SouthPeak Games",
+        "count": 5
+    },
+    {
+        "_id": "Telltale Games",
+        "count": 4
+    },
+    {
+        "_id": "N/A",
+        "count": 4
+    },
+    {
+        "_id": "Crave Entertainment",
+        "count": 4
+    },
+    {
+        "_id": "PopCap Games",
+        "count": 4
+    },
+    {
+        "_id": "Majesco Entertainment",
+        "count": 4
+    },
+    {
+        "_id": "Ubisoft Annecy",
+        "count": 3
+    },
+    {
+        "_id": "Milestone S.r.l.",
+        "count": 3
+    },
+    {
+        "_id": "Bigben Interactive",
+        "count": 3
+    },
+    {
+        "_id": "PQube",
+        "count": 3
+    },
+    {
+        "_id": "Mastertronic",
+        "count": 3
+    },
+    {
+        "_id": "Spike",
+        "count": 3
+    },
+    {
+        "_id": "Compile Heart",
+        "count": 3
+    },
+    {
+        "_id": "City Interactive",
+        "count": 2
+    },
+    {
+        "_id": "Nordic Games",
+        "count": 2
+    },
+    {
+        "_id": "G.Rev",
+        "count": 2
+    },
+    {
+        "_id": "Home Entertainment Suppliers",
+        "count": 2
+    },
+    {
+        "_id": "Tru Blu Entertainment",
+        "count": 2
+    },
+    {
+        "_id": "Koch Media",
+        "count": 2
+    },
+    {
+        "_id": "Moss",
+        "count": 2
+    },
+    {
+        "_id": "Atlus",
+        "count": 2
+    },
+    {
+        "_id": "Prototype",
+        "count": 2
+    },
+    {
+        "_id": "Playlogic Game Factory",
+        "count": 2
+    },
+    {
+        "_id": "Ignition Entertainment",
+        "count": 2
+    },
+    {
+        "_id": "Evolved Games",
+        "count": 2
+    },
+    {
+        "_id": "Alchemist",
+        "count": 2
+    },
+    {
+        "_id": "CyberFront",
+        "count": 2
+    },
+    {
+        "_id": "Zushi Games",
+        "count": 2
+    },
+    {
+        "_id": "RTL",
+        "count": 2
+    },
+    {
+        "_id": "O-Games",
+        "count": 2
+    },
+    {
+        "_id": "Idea Factory",
+        "count": 2
+    },
+    {
+        "_id": "Banpresto",
+        "count": 2
+    },
+    {
+        "_id": "Valcon Games",
+        "count": 2
+    },
+    {
+        "_id": "Success",
+        "count": 1
+    },
+    {
+        "_id": "Takara Tomy",
+        "count": 1
+    },
+    {
+        "_id": "Empire Interactive",
+        "count": 1
+    },
+    {
+        "_id": "Gamecock",
+        "count": 1
+    },
+    {
+        "_id": "Mad Catz",
+        "count": 1
+    },
+    {
+        "_id": "GameMill Entertainment",
+        "count": 1
+    },
+    {
+        "_id": "Navarre Corp",
+        "count": 1
+    },
+    {
+        "_id": "ChunSoft",
+        "count": 1
+    },
+    {
+        "_id": "Avanquest Software",
+        "count": 1
+    },
+    {
+        "_id": "Trion Worlds",
+        "count": 1
+    },
+    {
+        "_id": "Slitherine Software",
+        "count": 1
+    },
+    {
+        "_id": "Cloud Imperium Games Corporation",
+        "count": 1
+    },
+    {
+        "_id": "Yeti",
+        "count": 1
+    },
+    {
+        "_id": "Gamebridge",
+        "count": 1
+    },
+    {
+        "_id": "XS Games",
+        "count": 1
+    },
+    {
+        "_id": "Mojang",
+        "count": 1
+    },
+    {
+        "_id": "Alternative Software",
+        "count": 1
+    },
+    {
+        "_id": "Oxygen Interactive",
+        "count": 1
+    },
+    {
+        "_id": "Valve Software",
+        "count": 1
+    },
+    {
+        "_id": "Zoo Games",
+        "count": 1
+    },
+    {
+        "_id": "bitComposer Games",
+        "count": 1
+    },
+    {
+        "_id": "TopWare Interactive",
+        "count": 1
+    },
+    {
+        "_id": "Aspyr",
+        "count": 1
+    },
+    {
+        "_id": "Hudson Soft",
+        "count": 1
+    },
+    {
+        "_id": "Conspiracy Entertainment",
+        "count": 1
+    },
+    {
+        "_id": "Mindscape",
+        "count": 1
+    },
+    {
+        "_id": "JoWood Productions",
+        "count": 1
+    },
+    {
+        "_id": "Griffin International",
+        "count": 1
+    },
+    {
+        "_id": "Marvelous Interactive",
+        "count": 1
+    },
+    {
+        "_id": "Tradewest",
+        "count": 1
+    },
+    {
+        "_id": "49Games",
+        "count": 1
+    },
+    {
+        "_id": "Phantom EFX",
+        "count": 1
+    },
+    {
+        "_id": "Brash Entertainment",
+        "count": 1
+    },
+    {
+        "_id": "Touchstone",
+        "count": 1
+    }],
+    "genre": [
+    {
+        "_id": "Action",
+        "count": 324
+    },
+    {
+        "_id": "Sports",
+        "count": 220
+    },
+    {
+        "_id": "Shooter",
+        "count": 203
+    },
+    {
+        "_id": "Misc",
+        "count": 126
+    },
+    {
+        "_id": "Racing",
+        "count": 105
+    },
+    {
+        "_id": "Role-Playing",
+        "count": 76
+    },
+    {
+        "_id": "Fighting",
+        "count": 65
+    },
+    {
+        "_id": "Adventure",
+        "count": 47
+    },
+    {
+        "_id": "Simulation",
+        "count": 40
+    },
+    {
+        "_id": "Strategy",
+        "count": 28
+    },
+    {
+        "_id": "Platform",
+        "count": 24
+    },
+    {
+        "_id": "Puzzle",
+        "count": 7
+    }],
+    "year": [
+    {
+        "_id": 2011,
+        "count": 206
+    },
+    {
+        "_id": 2010,
+        "count": 182
+    },
+    {
+        "_id": 2009,
+        "count": 173
+    },
+    {
+        "_id": 2008,
+        "count": 146
+    },
+    {
+        "_id": 2007,
+        "count": 123
+    },
+    {
+        "_id": 2012,
+        "count": 106
+    },
+    {
+        "_id": 2006,
+        "count": 93
+    },
+    {
+        "_id": 2013,
+        "count": 75
+    },
+    {
+        "_id": 2014,
+        "count": 65
+    },
+    {
+        "_id": 2015,
+        "count": 40
+    },
+    {
+        "_id": "N/A",
+        "count": 30
+    },
+    {
+        "_id": 2005,
+        "count": 18
+    },
+    {
+        "_id": 2016,
+        "count": 8
+    }]
+}

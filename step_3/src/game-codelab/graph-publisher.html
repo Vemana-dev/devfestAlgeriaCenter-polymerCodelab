@@ -1,0 +1,31 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+
+
+<dom-module id="graph-publisher">
+    <template>
+        <h2>Publisher</h2>
+        <table style="width:100%">
+            <tr>
+                <th>Name</th>
+                <th>number of Game</th>
+            </tr>
+            <template is="dom-repeat" items='{{publishers}}' as="publisher">
+                <tr>
+                    <td>[[publisher._id]]</td>
+                    <td>[[publisher.count]]</td>
+                </tr>
+            </template>
+        </table>
+    </template>
+    <script>
+    class GraphPublisher extends Polymer.Element {
+        static get is() { return "graph-publisher" }
+        static get properties(){ 
+        	return {
+        		publishers:Object
+        	}
+        }
+    }
+    window.customElements.define(GraphPublisher.is, GraphPublisher)
+    </script>
+</dom-module>

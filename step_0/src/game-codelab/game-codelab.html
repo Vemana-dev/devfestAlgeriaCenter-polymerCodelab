@@ -1,0 +1,119 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/app-layout/app-header/app-header.html">
+<link rel="import" href="../../bower_components/app-layout/app-drawer/app-drawer.html">
+<link rel="import" href="../../bower_components/app-layout/app-toolbar/app-toolbar.html">
+<link rel="import" href="../../bower_components/iron-image/iron-image.html">
+<link rel="import" href="../../bower_components/paper-button/paper-button.html">
+<link rel="import" href="../../bower_components/iron-flex-layout/iron-flex-layout-classes.html">
+<link rel="import" href="../../bower_components/paper-tabs/paper-tabs.html">
+<link rel="import" href="../../bower_components/paper-tabs/paper-tab.html">
+<link rel="import" href="../../bower_components/iron-pages/iron-pages.html">
+<link rel="import" href="../../bower_components/iron-ajax/iron-ajax.html">
+<dom-module id="game-codelab">
+    <template>
+        <style include="iron-flex">
+     :host {
+            display: block;
+        }
+
+        app-toolbar {
+            background-color: #424242;
+            color: #fff;
+        }
+
+        app-header {
+            @apply --layout-fixed-top;
+            color: #fff;
+            --app-header-background-rear-layer: {
+                background-color: #ef6c00;
+            }
+            ;
+        }
+
+        app-drawer {
+            --app-drawer-scrim-background: rgba(0, 0, 0, 0.8);
+            --app-drawer-content-container: {
+                background-color: #B0BEC5;
+            }
+        }
+
+        paper-tabs {
+            --paper-tabs-selection-bar-color: #AB47BC;
+        }
+    }
+    img {
+        z-index: 0;
+    }
+    paper-button {
+        position: absolute;
+        top: 45%;
+        left: 45%;
+        color: white;
+        width: 10%;
+        background-color: #424242;
+        opacity: :0.5;
+    }
+    iron-pages {
+        margin-top: 64px;
+    }
+        </style>
+        <template is="dom-if" if="[[!continue]]">
+            <paper-button raised on-tap="begin">Commencer</paper-button>
+            <img src="../../images/wallpaper.gif" style="height: 100%; width: 100%;">
+        </template>
+        <template is="dom-if" if="[[continue]]">
+            <app-header reveals>
+                <app-toolbar>
+                    <img src="../../images/logo.png" style="width: 100px; height: 100px;">
+                    <div main-title></div>
+                    <paper-tabs selected="{{platform}}">
+                        <paper-tab>PS4</paper-tab>
+                        <paper-tab>XONE</paper-tab>
+                        <paper-tab>PC</paper-tab>
+                        <paper-tab>Wii</paper-tab>
+                        <paper-tab>PS3</paper-tab>
+                        <paper-tab>X360</paper-tab>
+                    </paper-tabs>
+                </app-toolbar>
+            </app-header>
+            <app-drawer id="drawer" swipe-open></app-drawer>
+            <iron-pages selected="[[platform]]">
+                <section>PS4</section>
+                <section>XONE</section>
+                <section>PC</section>
+                <section>Wii</section>
+                <section>PS3</section>
+                <section>X360</section>
+            </iron-pages>
+        </template>
+    </template>
+    <script>
+    /**
+     * @customElement
+     * @polymer
+     */
+    class GameCodelab extends Polymer.Element {
+        static get is() { return 'game-codelab'; }
+        static get properties() {
+            return {
+                continue: {
+                    type: Boolean,
+                    value: false
+                },
+                platform: {
+                    type: Number,
+                    value: 0
+                }
+            };
+        }
+        ready() {
+            super.ready()
+        }
+        begin(e) {
+            this.continue = true
+        }
+    }
+
+    window.customElements.define(GameCodelab.is, GameCodelab);
+    </script>
+</dom-module>

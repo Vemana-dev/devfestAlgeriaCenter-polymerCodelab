@@ -1,0 +1,129 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/paper-card/paper-card.html">
+<link rel="import" href="../../bower_components/paper-chip/paper-chip.html">
+<link rel="import" href="../../bower_components/iron-icons/iron-icons.html">
+<link rel="import" href="../../bower_components/iron-icon/iron-icon.html">
+<!--
+A comment describing this element
+
+Example:
+
+    <my-elem></my-elem>
+
+Example:
+
+    <my-elem>
+      <h2>Hello my-elem</h2>
+    </my-elem>
+
+@demo demo/index.html
+-->
+<dom-module id="game-card">
+    <template>
+        <style>
+         :host {
+            display: block;
+        }
+		
+		paper-chip:first-child {
+        	--paper-chip-background-color:  #FFC107;
+        }  
+        paper-chip:nth-child(2) {
+            --paper-chip-background-color: var(--game-card-genre, #64b5f6);
+        }
+
+        paper-chip:last-child {
+            --paper-chip-avatar-font-color:#424242;
+            --paper-chip-font-size: 16px;
+        }
+        </style>
+        <paper-card heading="[[game.name]]" image="" elevation="1" animated-shadow="false">
+            <div class="card-content"></div>
+            <div class="card-actions">
+                <paper-chip label="[[game.rank]]"></paper-chip>
+                <paper-chip label="[[game.genre]]"></paper-chip>
+                <paper-chip label="[[game.publisher]]"></paper-chip>
+                <paper-chip label="[[game.year]]">
+                    <span class="chip-background" slot="avatar">
+    					<iron-icon icon="today"></iron-icon>
+  					</span>
+                </paper-chip>
+            </div>
+        </paper-card>
+    </template>
+    <script>
+    class GameCard extends Polymer.Element {
+        static get is() { return 'game-card'; }
+        static get properties() {
+            return {
+                game: Object
+            };
+        }
+        ready(){
+        	super.ready()
+        	if (this.game.genre=="Role-Playing") {
+        		this.updateStyles({
+          			'--game-card-genre': '#3F51B5',
+       			 });
+        	}
+        	else if (this.game.genre=="Shooter"){
+        		this.updateStyles({
+          			'--game-card-genre': '#F44336',
+       			 });
+        	}
+        	else if (this.game.genre=="Action"){
+        		this.updateStyles({
+          			'--game-card-genre': '#FF5722',
+       			 });
+        	}
+        	else if (this.game.genre=="Sports"){
+        		this.updateStyles({
+          			'--game-card-genre': '#4CAF50',
+       			 });
+        	}
+        	else if (this.game.genre=="Adventure"){
+        		this.updateStyles({
+          			'--game-card-genre': '#00BCD4',
+       			 });
+        	}
+        	else if (this.game.genre=="Misc"){
+        		this.updateStyles({
+          			'--game-card-genre': '#CDDC39',
+       			 });
+        	}
+        	else if (this.game.genre=="Racing"){
+        		this.updateStyles({
+          			'--game-card-genre': '#CE93D8',
+       			 });
+        	}
+        	else if (this.game.genre=="Simulation"){
+        		this.updateStyles({
+          			'--game-card-genre': '#039BE5',
+       			 });
+        	}
+        	else if (this.game.genre=="Strategy"){
+        		this.updateStyles({
+          			'--game-card-genre': '#26A69A',
+       			 });
+        	}
+        	else if (this.game.genre=="Puzzle"){
+        		this.updateStyles({
+          			'--game-card-genre': '#689F38',
+       			 });
+        	}
+        	else if (this.game.genre=="Fighting"){
+        		this.updateStyles({
+          			'--game-card-genre': '#FF9800',
+       			 });
+        	}
+        	else if (this.game.genre=="Platform"){
+        		this.updateStyles({
+          			'--game-card-genre': '#00E676',
+       			 });
+        	}
+        }
+    }
+
+    window.customElements.define(GameCard.is, GameCard);
+    </script>
+</dom-module>
